@@ -8,14 +8,15 @@ html {
 
 body {
   height: 100%;
+  font-family: sans-serif;
 }
-
 
 
 header {
     margin-bottom: 20px;
     background-color: black;
     color: white;
+    font-family: sans-serif;
     text-align:center;
   padding: 5px;
   display: block;
@@ -25,10 +26,11 @@ header {
 nav {
   line-height:;
   background-color:;
-  width:125px;
+  width:225px;
+  font-family: sans-serif;
   display: inline-block;
   vertical-align: top;
-  padding: 50px;
+  padding: 5px;
 }
 
 nav ul {
@@ -40,19 +42,25 @@ a {
 }
 
 img {
-    margin: 25px;
+    width: 75%;
+    height:auto;
+}
+
+p1 {
+    text-align: justify;
 }
 
 aside {
-  
+  float: right;
   width: 125px;
   display: inline-block;
   background-color:black;
+  font-family: sans-serif;
   vertical-align: right;
-  color: yellow;
+  color: white;
   font-size: 18px;
   padding: 18px;
-  margin-left: 50px;
+  border-color: currentColor;
 }
 
 aside ul {
@@ -65,6 +73,9 @@ section {
   display: inline-block;
 }
 
+.image p1 {
+  text-align: right;
+}
 
 footer {
   width: 790px;

@@ -3,16 +3,18 @@ html {
 }
 
 body {
-  width: 800px;
+  width: 100%;
   height: 100%;
 }
 
 header {
-  background-image: url("pdx.jpg");
-  padding: 5px;
+  background-color: #00693C;
+  padding: 10px;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 46px;
-  color: #4B92DB;
+  color: #FFB612;
   display: block;
+  text-align: center;
   width: 100%;
 }
 
@@ -44,14 +46,14 @@ nav {
 }
 
 nav ul {
-  padding: ;
+  padding: 20px;
   float: left;
-  border-bottom: ;
   list-style-type: none;
 }
 
 nav li {
   float: left;
+  font-family: Helvetica, Arial, sans-serif;
 }
 
 nav li a {
@@ -61,6 +63,9 @@ nav li a {
   vertical-align: middle;
 }
 
+.divider {
+  background-color: #00693C;
+}
 
 section {
   width: 73%;
